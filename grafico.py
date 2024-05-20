@@ -7,7 +7,7 @@ title_types = df['type'].value_counts()
 
 fig1, ax1 = plt.subplots(figsize=(10, 6))
 
-title_types.plot(kind='pie', colors=['blue', 'pink'], ax=ax)
+title_types.plot(kind='pie', colors=['blue', 'pink'], ax1=ax1)
 ax1.set_ylabel('')  # Remover o rótulo do eixo Y
 ax1.set_title('Contagem de Títulos na Netflix por Tipo')
 ax1.tick_params(axis='x', rotation=0)
@@ -17,7 +17,7 @@ title_types = df['type'].value_counts()
 
 fig2, ax2 = plt.subplots(figsize=(10, 6))
 
-title_types.plot(kind='bars', colors=['blue', 'pink'], ax=ax)
+title_types.plot(kind='bars', colors=['blue', 'pink'], ax2=ax2)
 ax2.set_ylabel('')  # Remover o rótulo do eixo Y
 ax2.set_title('Contagem de Títulos na Netflix por Tipo')
 ax2.tick_params(axis='x', rotation=0)
