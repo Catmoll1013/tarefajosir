@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/content/netflix_titles.csv', encoding='latin-1')
+df = pd.read_csv('netflix_titles.csv', encoding='latin-1')
 
 
 title_types = df['type'].value_counts()
