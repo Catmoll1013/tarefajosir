@@ -9,5 +9,7 @@ title_types.plot(kind='bar', color=['blue', 'pink'])
 plt.xlabel('Tipo de Título')
 plt.ylabel('Contagem')
 plt.title('Contagem de Títulos na Netflix por Tipo')
-plt.xticks(rotation=0)  
+plt.xticks(rotation=0)
+plt.figure(figsize=(10, 6))  
+
 plt.show()
