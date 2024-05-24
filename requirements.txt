@@ -1,2 +1,9 @@
+wordcloud
+streamlit
+pandas
+requests
 matplotlib
-matplotlib
+numpy
+beautifulsoup4
+networkx
+st-gsheets-connection
